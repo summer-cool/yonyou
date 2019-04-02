@@ -1,5 +1,5 @@
 var md5 = require('js-md5');
-export default function webOpenoffice(p){
+export default function(p){
     if ("Win32" != navigator.platform && "Windows" != navigator.platform) return alert("抱歉，目前只支持window系统打开!");
     let code;
     let u = '';//url参数整合
